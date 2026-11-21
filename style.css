@@ -91,8 +91,8 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.55rem); letter-spacing: -.04em; }
 .actions { display: flex; flex-wrap: wrap; gap: .65rem; }
 .bright { background: var(--lime); color: #172408; }
 .bright:hover { background: #e1ff9e; }
-.hero-secondary { border-color: #7383ac; color: #f1f4ff; }
-.hero-secondary:hover { background: #273455; }
+.button-outline { border-color: #7383ac; color: #f1f4ff; }
+.button-outline:hover { background: #273455; }
 .hero-art {
   width: 100%;
   max-width: 29rem;
@@ -149,8 +149,7 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.55rem); letter-spacing: -.04em; }
 .team-copy p + p { margin-top: .8rem; }
 .contact { border-radius: var(--radius); background: linear-gradient(130deg, #152448, #141633); color: white; padding: clamp(1.5rem, 5vw, 4rem); }
 .contact p:last-child { margin-bottom: 0; max-width: 49ch; color: #dbe5fd; }
-.contact-links { justify-self: end; display: flex; flex-direction: column; align-items: flex-start; gap: .65rem; }
-.contact-offer { color: #dee6ff; font-weight: 650; }
+.contact-links { justify-self: end; display: flex; flex-direction: column; gap: .65rem; width: min(100%, 16rem); }
 .footer { padding-block: 2rem; }
 
 @media (max-width: 55rem) {

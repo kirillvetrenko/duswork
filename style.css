@@ -126,12 +126,24 @@ h3 { font-size: clamp(1.25rem, 2vw, 1.55rem); letter-spacing: -.04em; }
 .motion-icon::before { content: ''; position: absolute; left: .42rem; top: .26rem; border: .35rem solid transparent; border-left: .49rem solid currentColor; }
 .work, .team, .contact { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(1.7rem, 5vw, 4rem); }
 .work { padding: clamp(1.5rem, 4.5vw, 4rem); border-radius: var(--radius); background: #fff1e6; border: 1px solid #eed5c9; }
+.projects { display: grid; gap: 1rem; }
+.projects > h2 { margin-bottom: .55rem; }
+.work h3 { font-size: clamp(2rem, 4.2vw, 3.65rem); letter-spacing: -.055em; font-weight: 850; }
+.work-dus { background: #e9edff; border-color: #d1d8f1; }
+.work-dus .eyebrow { color: #4c4398; }
 .work .eyebrow { color: #884623; }
 .work-copy > p:last-of-type { max-width: 42ch; margin: 1rem 0 1.35rem; }
 .dark { background: var(--ink); color: white; }
 .dark:hover { background: #2b3b65; }
 .work-art { margin: 0; border-radius: 1.1rem; overflow: hidden; }
 .work-art img { width: 100%; height: auto; }
+.dus-art {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  background: radial-gradient(ellipse at 55% 35%, #424482, #12172f 72%);
+}
+.dus-art img { width: 42%; border-radius: 20%; box-shadow: 0 1rem 2.5rem #070a2580; }
 .team { padding-inline: clamp(0rem, 3vw, 2rem); }
 .team-copy p { margin: 0; }
 .team-copy p + p { margin-top: .8rem; }

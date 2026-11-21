@@ -7,7 +7,7 @@
   <meta name="description" content="DusWORK — команда веб-разработки и motion-дизайна. Создаём сайты для бизнеса, лендинги и адаптивные шаблоны.">
   <title>DusWORK — сайты, лендинги и motion-дизайн</title>
   <link rel="icon" href="assets/duswork-mark.webp" type="image/webp">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body id="top">
   <a class="skip" href="#main">К содержанию</a>
@@ -28,7 +28,7 @@
         <p class="hero-text">Проектируем и разрабатываем сайты, лендинги и шаблоны. Адаптируем их под разные экраны и добавляем анимацию под задачу.</p>
         <div class="actions">
           <a class="button bright" href="#contact">Обсудить проект</a>
-          <a class="button hero-secondary" href="#work">Посмотреть работу</a>
+          <a class="button hero-secondary" href="#work">Посмотреть проекты</a>
         </div>
       </div>
       <div class="hero-art">
@@ -57,16 +57,30 @@
       </div>
     </section>
 
-    <section class="section work" id="work" aria-labelledby="work-title">
+    <section class="section projects" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Наши проекты</h2>
+      <article class="work" aria-labelledby="cafe-title">
       <div class="work-copy">
-        <p class="eyebrow">Проект команды</p>
-        <h2 id="work-title">«Круассан<br>не булка»</h2>
-        <p>Сайт-визитка кофейни в Сириусе. На нём можно посмотреть меню с фото и ценами, сверить часы работы и построить маршрут.</p>
+        <p class="eyebrow">Сайт кофейни</p>
+        <h3 id="cafe-title">«Круассан<br>не булка»</h3>
+        <p>Кофейня в Сириусе. На сайте можно посмотреть меню с фото и ценами, сверить часы работы и построить маршрут.</p>
         <a class="button dark" href="https://grilida48.github.io/croissant-ne-bulka/" target="_blank" rel="noopener">Открыть сайт кофейни</a>
       </div>
       <figure class="work-art">
         <img src="assets/cafe-case.webp" width="850" height="640" alt="Слоёная выпечка с главной страницы сайта кофейни" loading="lazy">
       </figure>
+      </article>
+      <article class="work work-dus" aria-labelledby="dus-title">
+        <div class="work-copy">
+          <p class="eyebrow">Мессенджер</p>
+          <h3 id="dus-title">DusTeam</h3>
+          <p>Веб-версия мессенджера Dus для общения в браузере.</p>
+          <a class="button dark" href="https://dusteam.com/" target="_blank" rel="noopener">Открыть DusTeam</a>
+        </div>
+        <figure class="work-art dus-art">
+          <img src="assets/dus-messenger.webp" width="448" height="448" alt="Логотип мессенджера Dus" loading="lazy">
+        </figure>
+      </article>
     </section>
 
     <section class="section team" id="team" aria-labelledby="team-title">
